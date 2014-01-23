@@ -39,10 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EPSI.JPO.Kinect\EPSI.JPO.Kinect.csproj">
+      <Project>{e51bfece-f9d5-4e77-85d8-b74611fdddc3}</Project>
+      <Name>EPSI.JPO.Kinect</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EPSI.JPO.Model\EPSI.JPO.Model.csproj">
       <Project>{e7efb476-9cdd-4636-b4ba-d701b08d0dab}</Project>
       <Name>EPSI.JPO.Model</Name>
