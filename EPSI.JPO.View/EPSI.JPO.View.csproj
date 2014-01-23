@@ -90,6 +90,16 @@
     </None>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EPSI.JPO.Model\EPSI.JPO.Model.csproj">
+      <Project>{e7efb476-9cdd-4636-b4ba-d701b08d0dab}</Project>
+      <Name>EPSI.JPO.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EPSI.JPO.ViewModel\EPSI.JPO.ViewModel.csproj">
+      <Project>{ff457b9d-cf08-47a6-93df-4914c35b4908}</Project>
+      <Name>EPSI.JPO.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

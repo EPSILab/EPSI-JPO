@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPSI.JPO.View", "EPSI.JPO.View\EPSI.JPO.View.csproj", "{47CA88A9-8D7B-4DF5-952D-20EC5DBF27C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPSI.JPO.ViewModel", "EPSI.JPO.ViewModel\EPSI.JPO.ViewModel.csproj", "{FF457B9D-CF08-47A6-93DF-4914C35B4908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPSI.JPO.Model", "EPSI.JPO.Model\EPSI.JPO.Model.csproj", "{E7EFB476-9CDD-4636-B4BA-D701B08D0DAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{47CA88A9-8D7B-4DF5-952D-20EC5DBF27C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47CA88A9-8D7B-4DF5-952D-20EC5DBF27C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47CA88A9-8D7B-4DF5-952D-20EC5DBF27C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF457B9D-CF08-47A6-93DF-4914C35B4908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF457B9D-CF08-47A6-93DF-4914C35B4908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF457B9D-CF08-47A6-93DF-4914C35B4908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF457B9D-CF08-47A6-93DF-4914C35B4908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7EFB476-9CDD-4636-B4BA-D701B08D0DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7EFB476-9CDD-4636-B4BA-D701B08D0DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7EFB476-9CDD-4636-B4BA-D701B08D0DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7EFB476-9CDD-4636-B4BA-D701B08D0DAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
